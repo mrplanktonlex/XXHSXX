@@ -1,0 +1,174 @@
+/* hsbc red: d9534f */
+/*  #EE3424 */
+@font-face {
+    font-family: glyphicons;
+    src: url(assets/fonts/glyphicons-halflings-regular.woff) format('woff'),
+         url(assets/fonts/glyphicons-halflings-regular.eot) format('embedded-opentype'),
+         url(assets/fonts/glyphicons-halflings-regular.svg) format('svg'),
+         url(assets/fonts/glyphicons-halflings-regular.ttf) format('truetype'),
+         url(assets/fonts/glyphicons-halflings-regular.woff2) format('woff2');
+}
+
+ul.nav-tabs li a {
+    margin-right: 0; border-radius: 0;
+    font-weight: regular; font-size: 14; color: #969696;
+}
+
+.sortorder:after {
+    content: '\25bc';
+    cursor: pointer;
+}
+
+.sortorder.reverse:after {
+    content: '\25b2';
+    cursor: pointer;
+}
+
+a { border: 0 ; }
+
+h2 { }
+
+/* Here on I am just copying styles which looks different/unique */
+clear: both;
+float: none !important;
+float: right !important;
+
+background: #000 !important; /* #F2F2F2, rgba(71, 71, 71,1) for dark-gray background */
+background-color: transparent; /* works with color: */
+
+margin: 0.2em 0; /* wtf is 0 for?? */
+padding: 0.2em 0;
+
+overflow:hidden;
+overflow-y: auto;
+overflow-x: hidden;
+
+position: fixed/absolute/relative;
+
+zindex: 99/2/1/-1
+
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 400;
+font-family: glyphicons;
+word-wrap: break-word;
+
+rred-questionmark:- 
+.rred-questionmark {
+    background-color: rgb(217, 83, 79);
+    width: 20px; height: 20px; 
+    display: inline-block;
+    font-size: 13px; font-weight: bolder; 
+    text-align: center; border-radius: 20px; line-height: 20px; 
+    margin: 5px; color: white; cursor: pointer;
+}
+
+.glyphicon.feeback-correction {
+    position: absolute; top: 0px; right: 16px; z-index: 2; 
+    display: block; width: 34px; height: 34px; line-height: 34px; text-align:center; cursor: pointer;
+}
+
+tbody > tr:first-child > td {
+    border-top: none !important;
+}
+
+input[type = checkbox] {
+    zoom: 1.4; width: 11px; height: 11px;
+}
+
+.mini-search {
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 13px 16px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 13px 16px -11px rgba(0,0,0,0.75);
+    box-shadow: 10px 13px 16px -11px rgba(0,0,0,0.75);
+    position: absolute;
+    width: 96%; 
+    z-index: 3;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+btnClose {
+    background-color: #d9534f;
+    border: 1px solid #d9534f;
+    color: #fff; padding: 3px 25px;
+    border-radius: 4px;
+    margin: 0 16px; 
+    position: relative;
+    top: 9%;
+}
+
+
+.btn-xxhsxx, .btn-xxhsxx: hover, .btn-xxhsxx:not(:hover) {
+    border-color: #d43f3a;
+}
+
+
+.input-validation {
+    border-color: #EE3424 !important;
+    outline: 0 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.75), 0 0 8px rgba(238, 52, 36, .6) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.75), 0 0 8px rgba(238, 52, 36, .6) !important;
+}
+
+::-webkit-input-placeholder{ color: #555; }
+::-moz-input-placeholder { color: #555; }
+::placeholder { color: #555; }
+:-ms-input-placeholder { color: #555 !important; }
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 728px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
+@media screen and (max-height: 700px) {
+}
+
+@media all and (min-width: 992px) {
+    .col-md-2 { 
+        width: 16.9% !important;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .col-md-5 { 
+        width: 61% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
